@@ -116,7 +116,7 @@ export default async function newTicket(){
 
                     {
                         customers.length === 0 && (
-                            <Link href="/dashboard/new">
+                            <Link href="/dashboard/customer/new">
                                 You dont't have any client at the momment, <span className="text-blue-500 font-medium">Add new client</span>
                             </Link>
                         )
